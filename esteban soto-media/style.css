@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+   background: url('https://www.civitatis.com/blog/wp-content/uploads/2016/09/montes-tatra.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Helvetica;
+    height: 100vh;
+}
+nav{
+    background-color:darkgray rgba(119, 136, 153, 0.212)
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display:inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: tomato;
+}
